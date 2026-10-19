@@ -1,5 +1,5 @@
+<img width="1672" height="941" alt="photo" src="https://github.com/user-attachments/assets/8cd77f16-7c78-4fe7-9eb4-7630ffa15a70" />
 
-![Uploading ChatGPT 图像 2026年10月19日 17_29_49.png…]()
 # Illustrator Import XMind
 
 将 XMind 思维导图导入 Adobe Illustrator，转换为可编辑的文字、节点和连接线，方便继续设计、调整和排版。
