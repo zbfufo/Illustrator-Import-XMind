@@ -1,10 +1,3 @@
-项目名称用 **Illustrator Import XMind**，仓库名称建议写成 **Illustrator-Import-XMind**。
-
-1. 点击截图上方的 **Settings → General**，找到 **Repository name**，把 `Chaotic` 改成 `Illustrator-Import-XMind`，点击 **Rename**。[官方改名步骤](https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository)
-2. 返回 **Code** 页面，点击截图中绿色的 **Add a README**，把下面整段文字粘贴进去，再点击 **Commit changes**。保存后，这些内容就会显示在仓库首页。[README 首页说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-
-下面是可直接粘贴的首页文字：
-
 # Illustrator Import XMind
 
 将 XMind 思维导图导入 Adobe Illustrator，转换为可编辑的文字、节点和连接线，方便继续设计、调整和排版。
