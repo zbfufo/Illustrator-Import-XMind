@@ -22,7 +22,7 @@
 
 ### 下载脚本
 
-打开 [Import XMind v0.8.1.jsx](https://github.com/zbfufo/Illustrator-Import-XMind/blob/main/Import%20XMind%20v0.8.1.jsx)，点击文件右上角的下载按钮（Download raw file），将脚本保存到电脑。
+打开 [Import XMind v0.8.7.jsx](https://github.com/zbfufo/Illustrator-Import-XMind/blob/main/Import%20XMind%20v0.8.7.jsx)，点击文件右上角的下载按钮（Download raw file），将脚本保存到电脑。
 
 ### 方式一：直接运行
 
@@ -141,118 +141,138 @@
 
 
 
-
 # Illustrator Import XMind
 
-Import XMind mind maps into Adobe Illustrator as editable text, nodes, and connectors for further design, adjustment, and layout work.
-
-Current version: v0.8.1  
-The script code was written by OpenAI Codex.
+Import XMind mind maps into Adobe Illustrator and convert them into editable text, nodes, and connector lines for further design, adjustment, and layout work. Current version: v0.8.1
+The script code was created with OpenAI Codex.
 
 ## Main Features
 
-- Import XMind files while preserving topic text and parent–child hierarchy.
-- Preserve original colors, choose preset colors, or enter custom hex color codes.
-- Choose the font and body text size for imported content.
-- Choose between “Original Layout” and “Smart Layout.”
+- Import XMind files while preserving topic text and parent-child hierarchy.
+- Preserve original colors, choose preset colors, or enter custom color codes.
+- Choose the import font and body text size.
+- Provides both “Original Layout” and “Smart Layout” modes.
 - Smart Layout supports “Clear Hierarchy” and “Compact Columns” to improve readability for longer text.
-- Choose a white, black, transparent, or custom background.
-- Enable “Preview” to expand the preview panel on the right. It updates automatically when settings change; uncheck it to collapse the panel.
-- Chinese, English, Japanese, and Korean interfaces are available.
-- All imported content is placed in one main group, with topic group hierarchies preserved inside for moving the entire map and editing individual levels.
+- Background options include white, black, transparent, and custom colors.
+- Enable “Preview” to expand the preview area on the right. The preview updates automatically when settings change; uncheck it to collapse the panel.
+- Supports Chinese, English, Japanese, and Korean interfaces.
+- Imported content is placed in one main group, with topic group hierarchy retained inside for easy overall movement and level-by-level editing.
 
 ## Usage
 
 ### Download the Script
 
-Open [Import XMind v0.8.1.jsx](https://github.com/zbfufo/Illustrator-Import-XMind/blob/main/Import%20XMind%20v0.8.1.jsx), click the download button (**Download raw file**) in the upper-right corner of the file toolbar, and save the script to your computer.
+Open [Import XMind v0.8.7.jsx](https://github.com/zbfufo/Illustrator-Import-XMind/blob/main/Import%20XMind%20v0.8.7.jsx), click the download button in the upper-right corner of the file page (Download raw file), and save the script to your computer.
 
 ### Option 1: Run Directly
 
 1. Open Adobe Illustrator and create or open a document.
-2. Choose **File → Scripts → Other Script**.
+2. Choose “File → Scripts → Other Script”.
 3. Select the downloaded `.jsx` file to open the script window.
 
 ### Option 2: Permanently Add to the Scripts Menu
 
-1. Exit Adobe Illustrator.
+1. Quit Adobe Illustrator.
 2. Open the Illustrator installation directory and locate the **Scripts** folder for your current interface language.
-3. Copy the downloaded `.jsx` file into that folder.
+3. Copy the downloaded `.jsx` file into this folder.
 4. Restart Illustrator.
-5. Open **File → Scripts** and click the script’s name to run it.
+5. Choose “File → Scripts”, then click the script name to run it.
 
 **Typical Windows directory structure:**
 
 `C:\Program Files\Adobe\Adobe Illustrator [version]\Presets\[language]\Scripts`
 
-The language folder may be `zh_CN`, `en_US`, or another language code. Some versions use localized names for the Presets and Scripts folders. Refer to your actual installation directory. The script will appear in the Scripts menu of the Illustrator version where it is installed.
+**Typical macOS directory structure:**
+
+`/Applications/Adobe Illustrator [version]/Presets.localized/[language]/Scripts`
+
+In Finder, press Command + Shift + G and paste the corresponding actual path to open the folder. Language folders may be named `zh_CN`, `en_US`, and so on. In some versions, folder names may appear as localized names such as “Presets” or “Scripts”; use your actual installation directory as the reference. The script will appear in the Scripts menu of the Illustrator version where it is installed.
 
 ### Import XMind
 
 1. Select the `.xmind` file you want to import in the script window.
 2. Adjust the font, text size, layout, colors, and background.
-3. To view the result, enable “Preview” in the lower-left corner to expand the preview panel on the right.
-4. The preview updates automatically after settings change. Uncheck “Preview” to collapse the panel.
+3. To view the result, enable “Preview” in the lower-left corner to expand the preview area on the right.
+4. The preview updates automatically when settings change; uncheck it to collapse the preview area.
 5. Click “Import” to generate an editable mind map.
 
-Previews are generated in a separate temporary document. Content is added to the target document only after you confirm the import. The imported result is placed in one main group, with topic group hierarchies preserved inside.
+The preview is generated in a separate temporary document. Content is added to the target document only after you confirm the import. The imported result is placed in one main group, with topic group hierarchy retained inside.
 
 ## Changelog
+
+### v0.8.7 · Tab Display Fix
+
+- Fixed an issue where the selected “Layout” and “Appearance” tab text became invisible in Light appearance mode.
+- Unified the colors of tab text, selected underlines, and focus indicators.
+- Kept page switching in its original location; switching pages does not reset settings or regenerate the preview.
+
+### v0.8.4–v0.8.6 · Dual Themes and Multilingual Layout
+
+- Added Dark and Light appearance switching next to the script title, with Dark as the default.
+- Unified the interface implementation on Windows and macOS while retaining native dropdown menus, direct text input, and the color picker.
+- Optimized text widths, control spacing, and margins for Chinese, English, Japanese, and Korean.
+- Fixed clipped appearance buttons and incomplete Japanese “Preview” text.
+- Switching appearance preserves current settings and previews, without changing imported artwork colors.
+
+### v0.8.2–v0.8.3 · macOS Interface Adaptation and Preview Prompts
+
+- Adjusted the drawing of macOS buttons, checkboxes, and collapsed dropdown menus to improve Light interface display.
+- Optimized control disabling and restoration during preview generation to reduce panel color issues.
+- Removed duplicate prompts in the preview area, retaining only one centered file-selection prompt.
 
 ### v0.8.1 · Naming and Documentation
 
 - Named the script Import XMind.
 - Organized the changelog and usage instructions.
-- Added a development note clarifying that the script code was written by OpenAI Codex.
+- Added a development note stating that the script code was created with OpenAI Codex.
 
 ### v0.8 · Compact Window and On-Demand Preview
 
-- Show only the settings panel on the left by default to reduce window space.
-- Expand the preview panel on the right when “Preview” is enabled, and collapse it when unchecked.
+- Shows only the settings panel on the left by default to reduce window space usage.
+- Expands the preview area on the right when “Preview” is enabled and collapses it when unchecked.
 - Added a “Language” label before the language selector, which changes with the interface language.
-- Fixed the “Preview” caption being truncated or obscured after switching languages.
+- Fixed “Preview” text being truncated or obscured after changing interface languages.
 - Fixed preview messages not updating with the interface language.
-- Adjusted the display widths of some translated labels to reduce clipping.
-- Restored the default application font and native alignment for the Cancel and Import buttons.
-- Arranged the bottom settings and action buttons on separate rows to improve usability in the compact window.
+- Adjusted display widths for some translated text to reduce clipping.
+- Restored the software’s default fonts and native alignment for the Cancel and Import buttons.
+- Placed bottom settings and action buttons on separate rows to improve usability in the compact window.
 
 ### v0.7.1–v0.7.3 · Interface Fixes
 
 - Fixed custom-drawn backgrounds covering buttons and settings.
 - Switched to native panels, buttons, and tabs.
-- Fixed clipping on the right side of some dropdown menus and color picker buttons.
+- Fixed clipping on the right side of some dropdown menus and “Pick Color” buttons.
 - Adjusted input widths, button spacing, and bottom alignment.
 
 ### v0.7 · Interface Organization and Hierarchical Grouping
 
-- Introduced a simple light gray and white color scheme, organizing settings into “Layout” and “Appearance” tabs.
+- Adopted a clean light gray and white color scheme, organizing settings into “Layout” and “Appearance” pages.
 - Added Chinese, English, Japanese, and Korean interfaces.
-- Moved the preview toggle and language selector to the lower-left corner.
-- Automatically refresh the preview when options change while Preview is enabled; text fields refresh after input is confirmed.
+- Moved the Preview toggle and language selector to the lower-left corner.
+- Automatically refreshes the preview when options change while Preview is enabled; text fields refresh after input is confirmed.
 - Removed the manual refresh button and the “Full Map / Node Details” preview switch.
-- Placed imported content in one main group, with nested groups following the topic parent–child hierarchy.
-- Included backgrounds, connectors, and relationship lines in the main group.
+- Places imported content in one main group, with nested topic groups following the parent-child hierarchy.
+- Includes backgrounds, connector lines, and relationship lines in the main group.
 
 ### Early Iterations · Import and Layout Foundations
 
-- Fixed the import issue caused by Illustrator being unable to launch PowerShell, replacing it with XMind file reading inside the script.
+- Fixed the import issue caused by Illustrator being unable to launch PowerShell; XMind files are now read within the script.
 - Added file selection, font, text size, and color settings.
 - Added support for preserving original XMind topic colors.
 - Added white, black, transparent, and custom backgrounds.
 - Added Original Layout and Smart Layout modes.
-- Smart Layout introduced text sizes based on hierarchy, indentation, wider text blocks, and column layouts.
-- Added support for editable text, hierarchy connectors, and existing relationship lines.
+- Smart Layout provides hierarchical text sizes, indentation, wider text blocks, and column layouts.
+- Supports editable text, hierarchical connector lines, and existing relationship lines.
 - Added previews generated in a separate temporary document.
 
 ## Current Support Scope
 
-- “Original Layout” preserves directions, topic order, and coordinates saved in the file. Topics without coordinates are positioned according to the original structure, so the result is not guaranteed to match XMind’s appearance exactly.
-- The importer currently focuses on topic text, colors, parent–child hierarchy, and relationship lines.
-- Images, attachments, boundaries, summaries, and colors applied to individual portions of rich text are not currently reproduced.
-- Switching the interface language does not translate the original mind-map text.
-- A project file containing 123 topics has been used in Illustrator to verify layouts, nested grouping, language switching, window expansion and collapse, and automatic previews.
+- “Original Layout” preserves direction, topic order, and coordinates saved in the file. Topics without coordinates are arranged based on the original structure and may not exactly match the XMind canvas.
+- The importer currently focuses on topic text, colors, parent-child hierarchy, and relationship lines.
+- Images, attachments, boundaries, summaries, and partial rich-text colors are not currently restored.
+- Switching the interface language does not translate the original text in the mind map.
+- A project file containing 123 topics has been used in Illustrator to verify layout, nested groups, language switching, window expansion and collapse, and automatic previews.
 
 ## Feedback
 
-If you encounter import failures, text overflow, or layout problems, please provide your Illustrator version, screenshots, and steps to reproduce the issue in Issues. If possible, include a sample XMind file that reproduces the problem.
-Email: zhangbofengkkk@gmail.com  ©zbfufo
+If you encounter import failures, text overflow, or layout issues, please provide your Illustrator version, screenshots, and steps to reproduce in Issues. If possible, also attach a sample XMind file that reproduces the issue. Email: zhangbofengkkk@gmail.com ©zbfufo
