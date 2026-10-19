@@ -1,10 +1,11 @@
+
+![Uploading ChatGPT 图像 2026年10月19日 17_29_49.png…]()
 # Illustrator Import XMind
 
 将 XMind 思维导图导入 Adobe Illustrator，转换为可编辑的文字、节点和连接线，方便继续设计、调整和排版。
 
 当前版本：v0.8.1  
-项目策划、需求与测试反馈：zbfufo  
-脚本代码由 OpenAI Codex 编写完成，并根据 zbfufo 的反馈持续修改和完善。
+脚本代码由 OpenAI Codex 编写完成。
 
 ## 主要功能
 
@@ -89,5 +90,5 @@
 ## 问题反馈
 
 如遇到导入失败、文字溢出或排版异常，请在 Issues 中提供 Illustrator 版本、问题截图和复现步骤；如方便，也可附上用于复现的 XMind 示例文件。
-
-©zbfufo
+邮箱：zhangbofengkkk@gmail.com
+©zbfufo 
