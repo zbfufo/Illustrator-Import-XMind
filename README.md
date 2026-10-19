@@ -112,8 +112,9 @@
 ## 问题反馈
 
 如遇到导入失败、文字溢出或排版异常，请在 Issues 中提供 Illustrator 版本、问题截图和复现步骤；如方便，也可附上用于复现的 XMind 示例文件。
-邮箱：zhangbofengkkk@gmail.com
-©zbfufo 
+邮箱：zhangbofengkkk@gmail.com  ©zbfufo 
+
+
 
 
 # Illustrator Import XMind
@@ -159,7 +160,7 @@ Open [Import XMind v0.8.1.jsx](https://github.com/zbfufo/Illustrator-Import-XMin
 
 `C:\Program Files\Adobe\Adobe Illustrator [version]\Presets\[language]\Scripts`
 
-The language folder may be `zh_CN`, `en_US`, or another language code. Some versions display localized folder names, such as “预设” and “脚本.” Refer to your actual installation directory. The script will appear in the Scripts menu of the Illustrator version where it is installed.
+The language folder may be `zh_CN`, `en_US`, or another language code. Some versions use localized names for the Presets and Scripts folders. Refer to your actual installation directory. The script will appear in the Scripts menu of the Illustrator version where it is installed.
 
 ### Import XMind
 
@@ -229,6 +230,4 @@ Previews are generated in a separate temporary document. Content is added to the
 ## Feedback
 
 If you encounter import failures, text overflow, or layout problems, please provide your Illustrator version, screenshots, and steps to reproduce the issue in Issues. If possible, include a sample XMind file that reproduces the problem.
-
-Email: zhangbofengkkk@gmail.com  
-©zbfufo
+Email: zhangbofengkkk@gmail.com  ©zbfufo
