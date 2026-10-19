@@ -1,9 +1,8 @@
 <img width="1672" height="941" alt="photo" src="https://github.com/user-attachments/assets/8cd77f16-7c78-4fe7-9eb4-7630ffa15a70" />
 
-# Illustrator Import XMind
+# Illustrator Import XMind/思维导图xmind导入Adobe Illustrator
 
 将 XMind 思维导图导入 Adobe Illustrator，转换为可编辑的文字、节点和连接线，方便继续设计、调整和排版。
-
 当前版本：v0.8.1  
 脚本代码由 OpenAI Codex 编写完成。
 
