@@ -1,4 +1,4 @@
-<img width="1672" height="941" alt="photo" src="https://github.com/user-attachments/assets/8cd77f16-7c78-4fe7-9eb4-7630ffa15a70" />
+<img width="935" height="198" alt="image" src="https://github.com/user-attachments/assets/29284e0b-239b-4fd6-b7f8-a269ff67325d" /><img width="1672" height="941" alt="photo" src="https://github.com/user-attachments/assets/8cd77f16-7c78-4fe7-9eb4-7630ffa15a70" />
 
 # Illustrator Import XMind
 
@@ -150,8 +150,8 @@
 ## 当前支持范围
 
 - “原图版面”保留方向、主题顺序及文件中已保存的坐标；没有坐标的主题按原结构补排，不保证与 XMind 画面完全一致。
-- 当前主要导入主题文字、颜色、父子层级和关系线。
-- 暂不还原图片、附件、边界、概要及局部富文本颜色。
+- 当前主要导入主题文字、图片、颜色、父子层级和关系线。
+- 暂不还原附件、边界、概要及局部富文本颜色。
 - 切换界面语言不会翻译思维导图中的原始文字。
 - 已使用包含 123 个主题的项目文件，在 Illustrator 中验证排版、嵌套分组、语言切换、窗口展开收起及自动预览。
 
@@ -309,8 +309,8 @@ The preview is generated in a separate temporary document. Content is added to t
 ## Current Support Scope
 
 - “Original Layout” preserves direction, topic order, and coordinates saved in the file. Topics without coordinates are arranged based on the original structure and may not exactly match the XMind canvas.
-- The importer currently focuses on topic text, colors, parent-child hierarchy, and relationship lines.
-- Images, attachments, boundaries, summaries, and partial rich-text colors are not currently restored.
+- The importer currently focuses on topic text, images, colors, parent-child hierarchy, and relationship lines.
+- Attachments, boundaries, summaries, and partial rich-text colors are not currently restored.
 - Switching the interface language does not translate the original text in the mind map.
 - A project file containing 123 topics has been used in Illustrator to verify layout, nested groups, language switching, window expansion and collapse, and automatic previews.
 
