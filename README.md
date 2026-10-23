@@ -23,7 +23,7 @@
 
 ### 下载脚本
 
-打开 [Import XMind v0.8.7.jsx](https://github.com/zbfufo/Illustrator-Import-XMind/blob/main/Import%20XMind%20v0.8.7.jsx)，点击文件右上角的下载按钮（Download raw file），将脚本保存到电脑。
+打开 [Import XMind v0.9.0.jsx](xhttps://github.com/zbfufo/Illustrator-Import-XMind/blob/main/Import%20XMind%20v0.9.0.jsx)，点击文件右上角的下载按钮（Download raw file），将脚本保存到电脑。
 
 ### 方式一：直接运行
 
@@ -183,7 +183,7 @@
 
 ### Download the Script
 
-Open [Import XMind v0.8.7.jsx](https://github.com/zbfufo/Illustrator-Import-XMind/blob/main/Import%20XMind%20v0.8.7.jsx), click the download button in the upper-right corner of the file page (Download raw file), and save the script to your computer.
+Open [Import XMind v0.9.0.jsx](xhttps://github.com/zbfufo/Illustrator-Import-XMind/blob/main/Import%20XMind%20v0.9.0.jsx), click the download button in the upper-right corner of the file page (Download raw file), and save the script to your computer.
 
 ### Option 1: Run Directly
 
