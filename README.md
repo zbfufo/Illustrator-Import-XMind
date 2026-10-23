@@ -1,4 +1,4 @@
-<img width="935" height="198" alt="image" src="https://github.com/user-attachments/assets/29284e0b-239b-4fd6-b7f8-a269ff67325d" /><img width="1672" height="941" alt="photo" src="https://github.com/user-attachments/assets/8cd77f16-7c78-4fe7-9eb4-7630ffa15a70" />
+<img width="1672" height="941" alt="photo" src="https://github.com/user-attachments/assets/8cd77f16-7c78-4fe7-9eb4-7630ffa15a70" />
 
 # Illustrator Import XMind
 
