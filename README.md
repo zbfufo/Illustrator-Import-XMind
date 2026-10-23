@@ -2,9 +2,9 @@
 
 # Illustrator Import XMind
 
-将 XMind 思维导图导入 Adobe Illustrator，转换为可编辑的文字、节点和连接线，方便继续设计、调整和排版。
-当前版本：v0.9.0 
-脚本代码由 OpenAI Codex 编写完成。
+- 将 XMind 思维导图导入 Adobe Illustrator，转换为可编辑的文字、节点和连接线，方便继续设计、调整和排版。
+- 最新版本：v0.9.0 
+- 脚本代码由 OpenAI Codex 编写完成。
 
 ## 主要功能
 
@@ -162,8 +162,9 @@
 
 # Illustrator Import XMind
 
-Import XMind mind maps into Adobe Illustrator and convert them into editable text, nodes, and connector lines for further design, adjustment, and layout work. Current version: v0.9.0
-The script code was created with OpenAI Codex.
+- Import XMind mind maps into Adobe Illustrator and convert them into editable text, nodes, and connector lines for further design, adjustment, and layout work. 
+- Current version: v0.9.0
+- The script code was created with OpenAI Codex.
 
 ## Main Features
 
