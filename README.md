@@ -3,20 +3,19 @@
 # Illustrator Import XMind
 
 将 XMind 思维导图导入 Adobe Illustrator，转换为可编辑的文字、节点和连接线，方便继续设计、调整和排版。
-当前版本：v0.8.1  
+当前版本：v0.9.0 
 脚本代码由 OpenAI Codex 编写完成。
 
 ## 主要功能
 
-- 导入 XMind 文件，保留主题文字和父子层级。
-- 支持保留原始配色，也可选择预设颜色或输入自定义色号。
-- 可选择导入字体与正文字号。
-- 提供“原图版面”和“智能排版”两种模式。
-- 智能排版支持“层级清晰”和“扁平分栏”，改善长文字的阅读体验。
-- 背景支持白色、黑色、透明及自定义颜色。
-- 勾选“预览”后展开右侧预览区，设置调整后自动更新；取消勾选即可收起。
+- 将 XMind 导入 Adobe Illustrator，生成可编辑的文字、节点和连接线。
+- 保留主题层级、原始配色和图片内容。
+- 支持“原图版面”和“智能排版”。
+- 可调整字体、字号、文字颜色和背景。
+- 支持自动预览、浅色与深色外观。
 - 支持中文、英文、日文和韩文界面。
-- 导入内容统一放入一个总组，内部保留主题分组层级，便于整体移动和逐级编辑。
+- 导入内容保存在一个总组中，方便整体移动和编辑。
+- 同一个脚本兼容 Windows 和 macOS。
 
 ## 使用方法
 
@@ -60,6 +59,26 @@
 预览在独立临时文档中生成，确认导入后才将内容添加到目标文档。导入结果统一放入一个总组，内部保留主题分组层级。
 
 ## 修改日志
+
+### v0.9.0 · 图片主题导入
+
+- 读取 XMind 文件中 resources 目录保存的图片资源。
+- 支持纯图片主题，以及同时包含标题和图片的主题。
+- 图片按比例缩放到节点内，并嵌入 Illustrator 文档，不依赖外部临时文件。
+- 保留图片主题的节点背景、边框、连接线和父子层级。
+- 纯图片主题不再创建“未命名主题”文字框；图片资源缺失时显示明确提示。
+- 保持 v0.8.8 的 Windows 与 macOS 通用界面及文字对齐修复。
+
+### v0.8.8 · Windows 文字显示修复
+
+- 保持一个 Windows 与 macOS 通用的脚本文件。
+- Windows 控件的系统底层标题改为空白，仅由脚本绘制一次文字，修复文字重叠、偏移和裁切。
+- 恢复矩形外观按钮、下划线页签、方形预览框及底部操作按钮样式。
+- Windows 根据中文、英文、日文和韩文界面选用对应的系统字体。
+- “选择文件”按钮会根据当前界面语言和字体自动调整宽度，避免文字被裁切。
+- 修正顶部“外观”选项，以及底部“预览／语言”一行的垂直对齐。
+- 统一修正 Windows 自绘控件的文字基线，使外观按钮、文件按钮、页签、预览和底部操作按钮保持一致。
+- macOS 保持原有控件绘制和排版逻辑。
 
 ### v0.8.7 · 标签显示修复
 
@@ -143,20 +162,19 @@
 
 # Illustrator Import XMind
 
-Import XMind mind maps into Adobe Illustrator and convert them into editable text, nodes, and connector lines for further design, adjustment, and layout work. Current version: v0.8.1
+Import XMind mind maps into Adobe Illustrator and convert them into editable text, nodes, and connector lines for further design, adjustment, and layout work. Current version: v0.9.0
 The script code was created with OpenAI Codex.
 
 ## Main Features
 
-- Import XMind files while preserving topic text and parent-child hierarchy.
-- Preserve original colors, choose preset colors, or enter custom color codes.
-- Choose the import font and body text size.
-- Provides both “Original Layout” and “Smart Layout” modes.
-- Smart Layout supports “Clear Hierarchy” and “Compact Columns” to improve readability for longer text.
-- Background options include white, black, transparent, and custom colors.
-- Enable “Preview” to expand the preview area on the right. The preview updates automatically when settings change; uncheck it to collapse the panel.
+- Imports XMind maps into Adobe Illustrator as editable text, nodes, and connector lines.
+- Preserves topic hierarchy, original colors, and images.
+- Supports “Original Layout” and “Smart Layout”.
+- Provides font, text size, text color, and background options.
+- Supports automatic preview and Light or Dark appearance.
 - Supports Chinese, English, Japanese, and Korean interfaces.
-- Imported content is placed in one main group, with topic group hierarchy retained inside for easy overall movement and level-by-level editing.
+- Places imported content in one main group for convenient movement and editing.
+- Uses one script file for both Windows and macOS.
 
 ## Usage
 
@@ -199,6 +217,26 @@ In Finder, press Command + Shift + G and paste the corresponding actual path to 
 The preview is generated in a separate temporary document. Content is added to the target document only after you confirm the import. The imported result is placed in one main group, with topic group hierarchy retained inside.
 
 ## Changelog
+
+### v0.9.0 · Image Topic Import
+
+- Reads image resources stored in the XMind file’s resources directory.
+- Supports image-only topics and topics containing both a title and an image.
+- Scales images proportionally inside their nodes and embeds them in the Illustrator document without external temporary-file dependencies.
+- Preserves node backgrounds, borders, connector lines, and parent-child hierarchy for image topics.
+- Image-only topics no longer create “Untitled Topic” text frames; a clear message is shown when an image resource is missing.
+- Retains the shared Windows and macOS interface and text-alignment fixes from v0.8.8.
+
+### v0.8.8 · Windows Text Display Fix
+
+- Keeps one script file shared by Windows and macOS.
+- Leaves native Windows control captions empty and draws each label once in the script, fixing overlapping, shifted, and clipped text.
+- Restores rectangular appearance buttons, underlined tabs, the square Preview control, and footer action-button styling.
+- Selects the matching Windows system font for the Chinese, English, Japanese, and Korean interfaces.
+- Adjusts the “Choose File” button width according to the active language and font to prevent clipping.
+- Fixes vertical alignment in the top Appearance controls and the bottom Preview/Language row.
+- Corrects the shared Windows caption baseline so appearance buttons, file controls, tabs, Preview, and footer actions align consistently.
+- Preserves the existing control drawing and layout behavior on macOS.
 
 ### v0.8.7 · Tab Display Fix
 
